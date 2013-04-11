@@ -37,6 +37,9 @@ debugging is required to get things working again.  This
 usually happens when either Nest changed something, or
 something is mis-configured in your client.
 
+Sometime deleting the config/nest.credentials file fixes errors
+by forcing the library to get a new session token.
+
 ## Miscellaneous
 
 The twilio portion of this code was originaly thrown together
