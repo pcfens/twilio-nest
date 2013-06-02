@@ -46,7 +46,7 @@ The twilio portion of this code was originaly thrown together
 to let someone else without a smart phone control the thermostat
 in my house.  
 
-Even though the twilio portion isn't full featured, the PHP 
+Even though the nest portion isn't full featured, the PHP 
 library allows you to look at everything using the `status`
 member variable.  To update it, call the `fetchStatus()` method.
 
